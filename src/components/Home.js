@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <header>
-      <h1>Turrón Translate</h1>
-    </header>
+    <React.Fragment>
+      <header>
+        <h1>Home</h1>
+      </header>
+      <Link to="/about">Link</Link>
+    </React.Fragment>
   );
 };
 
