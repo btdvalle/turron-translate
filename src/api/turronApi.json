@@ -1,32 +1,122 @@
 [
   {
     "id": "1",
-    "original": "Al turrón",
-    "translated": "A trabajar",
+    "migueliano": "Al turrón",
+    "humano": "A trabajar. Ya. Por favor, limpiar e identar vuestro código",
     "thumbs": "up"
   },
   {
     "id": "2",
-    "original": "Al turrón",
-    "translated": "A trabajar",
+    "migueliano": "Porque somos gente elegante",
+    "humano": "Por favor, limpiar e identar vuestro código",
     "thumbs": "up"
   },
   {
     "id": "3",
-    "original": "Al turrón",
-    "translated": "A trabajar",
+    "migueliano": "No vivimos en la jungla",
+    "humano": "Por favor, limpiar e identar vuestro código",
     "thumbs": "up"
   },
   {
     "id": "4",
-    "original": "Al turrón",
-    "translated": "A trabajar",
+    "migueliano": "Y ya estaría",
+    "humano": "Veis como era muy 'facilito'. Por favor, limpiar e identar vuestro código",
     "thumbs": "up"
   },
   {
     "id": "5",
-    "original": "Al turrón",
-    "translated": "A trabajar",
+    "migueliano": "¿Quién falta?",
+    "humano": "No me acuerdo de los nombres de ninguna. Por favor, limpiar e identar vuestro código",
+    "thumbs": "up"
+  },
+  {
+    "id": "6",
+    "migueliano": "No os cambiéis de sitio",
+    "humano": "Vuestros nombres están asignados a las sillas no a vuestras caras. Si os cambiáis estoy perdido",
+    "thumbs": "up"
+  },
+  {
+    "id": "7",
+    "migueliano": "¿A qué sabe esto?",
+    "humano": "Aunque os diga que comáis fruta, me voy a alimentar de vuestras Ruffles Jamón",
+    "thumbs": "up"
+  },
+  {
+    "id": "8",
+    "migueliano": "Mu rico, señora",
+    "humano": "Me gusta este contenido que has compartido",
+    "thumbs": "up"
+  },
+  {
+    "id": "9",
+    "migueliano": "Volvemos de publi",
+    "humano": "Me he quedado tostado, prosigamos",
+    "thumbs": "up"
+  },
+  {
+    "id": "10",
+    "migueliano": "¿A qué sabe esto?",
+    "humano": "Aunque os diga que comáis fruta, me voy a alimentar de vuestras Ruffles Jamón ",
+    "thumbs": "up"
+  },
+  {
+    "id": "11",
+    "migueliano": "Eeeeeeee",
+    "humano": "Me he quedado tostado. Por favor, limpiar e identar vuestro código",
+    "thumbs": "up"
+  },
+  {
+    "id": "12",
+    "migueliano": "Hago compruebo, hago compruebo",
+    "humano": "Esta esta muy clara: Hago compruebo, hago compruebo. Por favor, limpiar e identar vuestro código",
+    "thumbs": "up"
+  },
+  {
+    "id": "13",
+    "migueliano": "Identar, por favor... Identar",
+    "humano": "Esta no necesita definición, bueno si. Por favor, limpiar e identar vuestro código",
+    "thumbs": "up"
+  },
+  {
+    "id": "14",
+    "migueliano": "Catacroquer",
+    "humano": "Esta no necesita",
+    "thumbs": "up"
+  },
+  {
+    "id": "15",
+    "migueliano": "Debuggear",
+    "humano": "Debuggear y debuggear... Ah! Y debuggear ",
+    "thumbs": "up"
+  },
+  {
+    "id": "16",
+    "migueliano": "Vaya tela",
+    "humano": "Vaya tela. Por favor, limpiar e identar vuestro código",
+    "thumbs": "up"
+  },
+  {
+    "id": "17",
+    "migueliano": "¿Correcto?",
+    "humano": "Te acabo de arreglar el código, te has enterado",
+    "thumbs": "up"
+  },
+  {
+    "id": "18",
+    "migueliano": "A pastar!",
+    "humano": "Intento de despedida popular, sin exito...",
+    "thumbs": "up"
+  },
+  {
+    "id": "19",
+    "migueliano": "Nosotras somos programadoras",
+    "humano": "Aunque no os lo creáis, sois programadoras! Auh auh auh!",
+    "thumbs": "up"
+  },
+  {
+    "id": "20",
+    "migueliano": "Hasta luego Maricarmen",
+    "humano": "Nunca un adios, siempre un hasta luego",
     "thumbs": "up"
   }
 ]

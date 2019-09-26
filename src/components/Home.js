@@ -7,7 +7,7 @@ const Home = () => {
       <header>
         <h1>Home</h1>
       </header>
-      <Link to="/about">Link</Link>
+      <Link to="/about">Lista</Link>
     </React.Fragment>
   );
 };
