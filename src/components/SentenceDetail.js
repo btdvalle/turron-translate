@@ -10,8 +10,12 @@ const SentenceDetail = props => {
         <strong>Definición: </strong>
         {humano}
       </p>
-      <Link to="/about">Volver</Link>
-      <Link to="/">Home</Link>
+      <Link className="link" to="/about">
+        {"< Volver al diccionario"}
+      </Link>
+      <Link className="link" to="/">
+        {"< Home"}
+      </Link>
     </React.Fragment>
   );
 };

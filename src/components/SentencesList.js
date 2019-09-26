@@ -16,7 +16,9 @@ const SentencesList = props => {
   return (
     <div>
       <ul>{renderList(props.sentences)}</ul>
-      <Link to="/">Home</Link>
+      <Link className="link" to="/">
+        {"< Home"}
+      </Link>
     </div>
   );
 };
