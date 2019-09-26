@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
+import "../scss/App.scss";
 import SentencesList from "./SentencesList";
 import SentenceDetail from "./SentenceDetail";
 import apiInfo from "../api/turronApi.json";
