@@ -8,11 +8,13 @@ const SentenceDetail = props => {
     <React.Fragment>
       <section className="detail">
         <Header />
-        <h3 className="detail_title">{migueliano}</h3>
-        <p className="detail_text">
-          <strong>Definición: </strong>
-          {humano}
-        </p>
+        <div className="detail_description">
+          <h3 className="detail_description_title">{migueliano}</h3>
+          <p className="detail_description_text">
+            <strong>Definición: </strong>
+            {humano}
+          </p>
+        </div>
         <Link className="detail_link" to="/about">
           {"< Volver al diccionario"}
         </Link>

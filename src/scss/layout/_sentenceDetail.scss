@@ -1,16 +1,27 @@
 .detail {
-  height: 100vh;
+  height: calc(100vh - 17px);
   width: 100%;
-  margin: 50px 0 0 30px;
   display: flex;
   flex-direction: column;
-  &_text {
-    margin-bottom: 300px;
+  align-items: center;
+  font-family: ‘Nunito’, sans-serif;
+  &_description {
+    width: 400px;
+    height: 250px;
+    background: white;
+    color: rgb(77, 77, 77);
+    padding-top: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+    margin: auto;
     @media (min-width: 750px) {
-      margin-bottom: 370px;
+      width: 550px;
+      height: 300px;
     }
     @media (min-width: 950px) {
-      margin-bottom: 450px;
+      width: 700px;
+      height: 450px;
     }
   }
   &_link {

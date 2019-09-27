@@ -1,27 +1,20 @@
 .home {
-  height: 100vh;
+  background-image: url("../../images/promoGrace.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 588px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   padding-top: 160px;
-  position: relative;
+  @media (min-width: 750px) {
+    height: 768px;
+  }
   @media (min-width: 950px) {
-    // width: 970px;
-    // margin: 0px auto 0px auto;
+    height: 100vh;
   }
-  &_img {
-    &_item {
-      position: absolute;
-      z-index: -1;
-      right: 0;
-      top: 0;
-      min-width: 100%;
-      min-height: 100%;
-      object-fit: cover;
-      object-position: center;
-    }
-  }
+
   &_text {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
