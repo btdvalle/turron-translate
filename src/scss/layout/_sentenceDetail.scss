@@ -1,0 +1,21 @@
+.detail {
+  height: 100vh;
+  width: 100%;
+  margin: 50px 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  &_text {
+    margin-bottom: 300px;
+    @media (min-width: 750px) {
+      margin-bottom: 370px;
+    }
+    @media (min-width: 950px) {
+      margin-bottom: 450px;
+    }
+  }
+  &_link {
+    display: block;
+    text-decoration: none;
+    color: white;
+  }
+}

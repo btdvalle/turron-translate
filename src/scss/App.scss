@@ -1,13 +1,11 @@
 @import "layout/header";
 @import "layout/home";
+@import "layout/sentenceList";
+@import "layout/sentenceItem";
+@import "layout/sentenceDetail";
 body {
+  box-sizing: border-box;
   background: grey;
   font-family: "Monda", sans-serif;
-  color: white;
-}
-
-.link {
-  display: block;
-  text-decoration: none;
   color: white;
 }

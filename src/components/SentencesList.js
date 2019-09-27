@@ -1,11 +1,12 @@
 import React from "react";
+import Header from "./Header";
 import SentenceItem from "./SentenceItem";
 import { Link } from "react-router-dom";
 
 const renderList = sentences => {
   return sentences.map(sentence => {
     return (
-      <li key={sentence.id}>
+      <li className="sentenceList_li" key={sentence.id}>
         <SentenceItem sentence={sentence} />
       </li>
     );
@@ -15,8 +16,9 @@ const renderList = sentences => {
 const SentencesList = props => {
   return (
     <div>
-      <ul>{renderList(props.sentences)}</ul>
-      <Link className="link" to="/">
+      <Header />
+      <ul className="sentenceList">{renderList(props.sentences)}</ul>
+      <Link className="sentenceLis_link" to="/">
         {"< Home"}
       </Link>
     </div>

@@ -1,11 +1,29 @@
 .home {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  text-align: center;
+  padding-top: 160px;
+  position: relative;
+  @media (min-width: 950px) {
+    // width: 970px;
+    // margin: 0px auto 0px auto;
+  }
+  &_img {
+    &_item {
+      position: absolute;
+      z-index: -1;
+      right: 0;
+      top: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
   &_text {
-    font-family: "Shadows Into Light", cursive;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     margin: 0 30px 0 30px;
     @media (min-width: 750px) {
@@ -13,8 +31,16 @@
       margin: 0 95px 0 95px;
     }
     @media (min-width: 950px) {
-      font-size: 30px;
-      margin: 0 140px 0 140px;
+      ffont-size: 36px;
+      line-height: 48px;
+      font-weight: 500;
+      width: 100%;
+      margin: 10px auto 50px auto;
     }
+  }
+  &_link {
+    text-decoration: none;
+    color: white;
+    margin: 50px auto 0px auto;
   }
 }
