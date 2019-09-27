@@ -5,14 +5,13 @@
   height: 588px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   text-align: center;
-  padding-top: 160px;
   @media (min-width: 750px) {
     height: 768px;
   }
   @media (min-width: 950px) {
-    height: 100vh;
+    max-height: 100vh;
   }
 
   &_text {
@@ -28,12 +27,13 @@
       line-height: 48px;
       font-weight: 500;
       width: 100%;
-      margin: 10px auto 50px auto;
+      margin: 100px auto 140px auto;
     }
   }
   &_link {
     text-decoration: none;
     color: white;
-    margin: 50px auto 0px auto;
+    margin: 50px auto 15px auto;
+    font-size: 20px;
   }
 }
