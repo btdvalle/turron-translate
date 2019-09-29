@@ -2,38 +2,47 @@
   background-image: url("../../images/promoGrace.jpg");
   background-size: cover;
   background-position: center;
-  height: 588px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  text-align: center;
+  height: 590px;
+  .opacity {
+    // height: 588px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: flex-end;
+    // text-align: center;px;
+    // height: 588px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+  }
   @media (min-width: 750px) {
-    height: 768px;
   }
   @media (min-width: 950px) {
-    max-height: 100vh;
   }
 
   &_text {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
-    margin: 0 30px 0 30px;
+    margin: 260px 30px 0 30px;
     @media (min-width: 750px) {
       font-size: 25px;
-      margin: 0 95px 0 95px;
+      margin: 300px 95px 0 95px;
     }
     @media (min-width: 950px) {
-      ffont-size: 36px;
+      padding: 20px;
+      font-size: 30px;
       line-height: 48px;
       font-weight: 500;
-      width: 100%;
-      margin: 100px auto 140px auto;
+      margin: 240px auto 20px auto;
     }
   }
+
   &_link {
     text-decoration: none;
     color: white;
-    margin: 50px auto 15px auto;
+    margin: 20px auto 15px auto;
     font-size: 20px;
   }
 }
