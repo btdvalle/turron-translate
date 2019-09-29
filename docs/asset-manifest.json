@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.8f49b375.chunk.css",
+    "main.css": "./static/css/main.55479136.chunk.css",
     "main.js": "./static/js/main.846fa4ff.chunk.js",
     "main.js.map": "./static/js/main.846fa4ff.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.8b127a42.js",
@@ -8,9 +8,9 @@
     "static/js/2.0ee7e11a.chunk.js": "./static/js/2.0ee7e11a.chunk.js",
     "static/js/2.0ee7e11a.chunk.js.map": "./static/js/2.0ee7e11a.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.b96ecf60a6462d177972253ab20146e5.js": "./precache-manifest.b96ecf60a6462d177972253ab20146e5.js",
+    "precache-manifest.d0d5ecc7cf6e85e66855591b00509019.js": "./precache-manifest.d0d5ecc7cf6e85e66855591b00509019.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.8f49b375.chunk.css.map": "./static/css/main.8f49b375.chunk.css.map",
+    "static/css/main.55479136.chunk.css.map": "./static/css/main.55479136.chunk.css.map",
     "static/media/hulk-miguel-icon.png": "./static/media/hulk-miguel-icon.53790dab.png",
     "static/media/App.scss": "./static/media/promoGrace.02b1f47d.jpg"
   }
